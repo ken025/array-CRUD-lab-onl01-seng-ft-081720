@@ -8,8 +8,8 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = ["Dino" , "Noni" , "Kat", "Ken"]
-  element = "Cami"
-  class << element
+  element = "arrays!"
+  class.push element
 end
 
 def add_element_to_start_of_array(array, element)
